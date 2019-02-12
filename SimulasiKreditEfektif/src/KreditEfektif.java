@@ -38,7 +38,7 @@ public class KreditEfektif {
      */
     private double bunga(int bulanKe, double pokok){
         double valueBunga;
-        valueBunga = ((this.pinjaman-(bulanKe*pokok))*(this.sukuBunga/100))/this.tenor;
+        valueBunga = ((this.pinjaman-(bulanKe*pokok))*(this.sukuBunga/100))/12;
         return valueBunga;    
     }
     
