@@ -20,18 +20,18 @@ public class main {
         int tenor;
         double biayaAdmin;
         
-        System.out.print("Pinjaman:");
+        System.out.print("Masukan nilai pinjaman: ");
         pinjaman = sc.nextDouble();
         //pinjaman = 320000000;
-        System.out.print("Suku Bunga:");
+        System.out.print("Masukan nilai suku bunga: ");
         sukuBunga = sc.nextDouble();
         //sukuBunga = 16.8;
-        System.out.print("Tenor:");
+        System.out.print("Masukan nilai tenor: ");
         tenor = sc.nextInt();
         //tenor=12;
-        System.out.print("BiayaAdmin");
+        System.out.print("Masukan nilai biaya admin: ");
         biayaAdmin = sc.nextDouble();
-        //biayaAdmin=1;
+        //biayaAdmin=100000;
         
         System.out.println("");
         System.out.println("");
